@@ -1,2 +1,13 @@
 # Web-Covid-19
 ![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/1.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/2.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/3.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/4.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/5.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/6.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/7.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/8.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/9.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/10.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/11.png)
+![Alt Text](https://github.com/memorezasabana/Web-Covid-19/blob/master/WEB%20COVID/12.png)
