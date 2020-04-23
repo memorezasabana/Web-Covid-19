@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700&display=swap");
+.btn_1,
+.btn_2,
+.regervation_part .btn_2:hover {
+    background-image: -webkit-linear-gradient(to right, #649bff, #0070fa, #649bff);
+    background-image: -o-linear-gradient(to right, #649bff, #0070fa, #649bff);
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+}
+
+.regervation_part .btn_2 {
+    background-image: -webkit-linear-gradient(to right, #fff, #fff, #fff);
+    background-image: -o-linear-gradient(to right, #fff, #fff, #fff);
+    background-image: linear-gradient(to right, #fff, #fff, #fff);
+}
+
+
+/**************** common css start ****************/
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.message_submit_form:focus {
+    outline: none;
+}
+
+input:hover,
+input:focus {
+    outline: none !important;
+}
+
+.gray_bg {
+    background-color: #f7f7f7;
+}
+
+.section_padding {
+    padding: 140px 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .section_padding {
+        padding: 80px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_padding {
+        padding: 70px 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section_padding {
+        padding: 70px 0px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .section_padding {
+        padding: 70px 0px;
+    }
+}
+
+.single_padding_top {
+    padding-top: 140px !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single_padding_top {
+        padding-top: 70px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 33, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
+    .single_padding_top {
+        padding-top: 70px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* line 33, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
+    .single_padding_top {
+        padding-top: 70px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 33, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
+    .single_padding_top {
+        padding-top: 80px !important;
+    }
+}
+
+
+/* line 48, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
+
+.padding_top {
+    padding-top: 140px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 48, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
+    .padding_top {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 48, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
+    .padding_top {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .padding_top {
+        padding-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .padding_top {
+        padding-top: 70px;
+    }
+}
+
+.padding_bottom {
+    padding-bottom: 140px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .padding_bottom {
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #242429;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    color: #666666;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.929;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #888888;
+}
+
+h2 {
+    font-size: 44px;
+    line-height: 28px;
+    color: #242429;
+    font-weight: 600;
+    line-height: 1.222;
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    h2 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 25px;
+}
+
+@media (max-width: 576px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.section_tittle {
+    margin-bottom: 84px;
+}
+
+@media (max-width: 576px) {
+    .section_tittle {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .section_tittle {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_tittle {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .section_tittle {
+        margin-bottom: 50px;
+    }
+}
+
+.section_tittle h2 {
+    font-size: 48px;
+    color: #242429;
+    line-height: 40px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+@media (max-width: 991px) {
+    .section_tittle h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .section_tittle h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+}
+
+.section_tittle p {
+    color: #7f7f7f;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 26px;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 174, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/**************** common css end ****************/
+
+
+/* Main Button Area css
+============================================================================================ */
+
+.submit_btn {
+    width: auto;
+    display: inline-block;
+    background: #fff;
+    padding: 0px 50px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    border: 1px solid #edeff2;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.submit_btn:hover {
+    background: transparent;
+}
+
+.btn_1 {
+    display: inline-block;
+    padding: 10.5px 36px;
+    font-size: 14px;
+    color: #000;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    border: 1px solid #e4e6ea;
+    border-radius: 2px;
+    font-family: "Playfair Display", serif;
+    background-size: 200% auto;
+}
+
+.btn_1:hover {
+    background-color: #0065e1 !important;
+    color: #fff;
+    background-size: 200% auto;
+}
+
+@media (max-width: 576px) {
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+}
+
+.btn_2 {
+    display: inline-block;
+    padding: 16px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    background-size: 200% auto;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn_2:hover {
+    color: #fff;
+    background-position: center right;
+}
+
+
+/*=================== custom button rule start ====================*/
+
+.button {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 54px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #edeff2;
+    text-transform: uppercase;
+    background-color: #0065e1;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    .button {
+        font-size: 13px;
+        padding: 9px 24px;
+    }
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button-link {
+    letter-spacing: 0;
+    color: #3b1d82;
+    border: 0;
+    padding: 0;
+}
+
+.button-link:hover {
+    background: transparent;
+    color: #3b1d82;
+}
+
+.button-header {
+    color: #fff;
+    border-color: #edeff2;
+}
+
+.button-header:hover {
+    background: #b8024c;
+    color: #fff;
+}
+
+.button-contactForm {
+    color: #fff;
+    border-color: #edeff2;
+    padding: 12px 25px;
+}
+
+
+/* End Main Button Area css
